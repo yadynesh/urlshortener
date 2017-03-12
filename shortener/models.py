@@ -9,15 +9,18 @@ class MagicUrlManager(models.Manager):
 		qs = qs.filter(active = True)
 		return qs
 
-	def refresh_shortcodes(self):
+	def refresh_shortcodes(self, items = None):
 		print(self)
 		qs = MagicUrl.objects.filter(id__gte = 1) #gte is greater than equal
-		new_codes = 0
-		for q in qs:
-			q.shortcode = generateShortcode(q)
-			print(q.shortcode)
-			q.save()
-			new_codes += 1
+
+		if items != None and isinstance(items, int):
+			qs = qs.order_by('-id')[:items]
+			new_codes = 0
+			for q in qs:
+				q.shortcode = generateShortcode(q)
+				print(q.id)
+				q.save()
+				new_codes += 1
 		return "Number of codes updated :{i}".format(i = new_codes)
 
 
@@ -36,6 +39,9 @@ class MagicUrl(models.Model):
 		the overridden class i.e MagicUrlManager
 	'''
 
+	# class Meta:
+	# 	ordering = ['-id']
+	
 	def save(self, *args, **kwargs):
 
 		#Ensures code does not change every time you save
