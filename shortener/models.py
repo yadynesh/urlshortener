@@ -1,7 +1,8 @@
 from django.db import models
-
-# Create your models here.
+from django.conf import settings
 from .utils import generateShortcode
+
+SHORTCODE_MAX = getattr(settings, "SHORTCODE_MAX", 15) #'SHORTCODE_MAX' = 15 if SHORTCODE_MAX not specified in settings
 
 class MagicUrlManager(models.Manager):
 	def all(self, *args, **kwargs):
@@ -27,7 +28,7 @@ class MagicUrlManager(models.Manager):
 
 class MagicUrl(models.Model):
 	url = models.CharField(max_length = 220)
-	shortcode = models.CharField(max_length = 20,unique = True, blank = True)
+	shortcode = models.CharField(max_length = SHORTCODE_MAX,unique = True, blank = True)
 	updated = models.DateTimeField(auto_now = True)
 	timestamp = models.DateTimeField(auto_now_add = True)
 	active = models.BooleanField(default = True)

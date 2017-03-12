@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-
+from shortener import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^view1/$',views.magic_redirect_view,),
+    url(r'^view2/$',views.MagicCBView.as_view(),),
 ]
