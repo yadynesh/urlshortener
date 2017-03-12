@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"H",
+				"HttpResponseRedirect"
+			],
+			[
+				"Ht",
+				"Http404\tclass"
+			],
+			[
+				"Magi",
+				"MagicUrl"
+			],
+			[
+				"MA",
+				"MagicUrl\tclass"
+			],
+			[
+				"shor",
+				"shortcode\t(models.py)"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"Htp",
+				"HttpResponse"
+			],
+			[
+				"Ma",
+				"MagicCBView\t(views.py)"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"Mag",
+				"MagicUrlManager\tclass"
+			],
+			[
+				"ne",
+				"new_code"
+			],
+			[
+				"sho",
+				"generateShortCode\tfunction"
+			],
+			[
+				"s",
+				"shortcode"
+			],
+			[
+				"auto",
+				"auto_now_add\tparam"
+			],
+			[
+				"Dat",
+				"DateTimeField\tclass"
+			],
+			[
 				"bs3fo",
 				"bs3-form:inline\tbs3-form-inline"
 			],
@@ -70,10 +130,6 @@
 			[
 				"res",
 				"rest_framework\tmodule"
-			],
-			[
-				"re",
-				"register\tfunction"
 			],
 			[
 				"mod",
@@ -291,6 +347,60 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "shortener/models.py",
+			"settings":
+			{
+				"buffer_size": 1731,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shortener/views.py",
+			"settings":
+			{
+				"buffer_size": 817,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "urlshortener/urls.py",
+			"settings":
+			{
+				"buffer_size": 940,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shortener/utils.py",
+			"settings":
+			{
+				"buffer_size": 651,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "shortener/admin.py",
+			"settings":
+			{
+				"buffer_size": 120,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "urlshortener/settings.py",
+			"settings":
+			{
+				"buffer_size": 3167,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -357,10 +467,19 @@
 	},
 	"expanded_folders":
 	[
-		"/C/project/urlshortener"
+		"/C/project/urlshortener",
+		"/C/project/urlshortener/shortener",
+		"/C/project/urlshortener/shortener/__pycache__",
+		"/C/project/urlshortener/shortener/management",
+		"/C/project/urlshortener/shortener/management/commands",
+		"/C/project/urlshortener/urlshortener"
 	],
 	"file_history":
 	[
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/project/urlshortener/shortener/management/commands/refreshcodes.py",
+		"/C/project/urlshortener/urlshortener/urls.py",
+		"/C/project/urlshortener/shortener/management/__init__.py",
 		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/templates/AdminPanel/customer-details.html",
 		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/templates/AdminPanel/index.html",
 		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/templates/AdminPanel/customer_confirm_delete.html",
@@ -484,11 +603,7 @@
 		"/C/Python34/Lib/site-packages/Orange/datasets/conferences.dst",
 		"/C/Python34/Lib/site-packages/Orange/datasets/market-basket.tab",
 		"/C/Users/yadynesh/Final_Project/sampledataset.tab",
-		"/C/Users/yadynesh/Final_Project/sampledataset2.csv",
-		"/C/Users/yadynesh/.condarc",
-		"/C/Users/yadynesh/Final_Project/sampledataset6.tab",
-		"/C/Users/yadynesh/Final_Project/sampledataset.tab.metadata",
-		"/C/Users/yadynesh/Final_Project/sampledataset3.tab"
+		"/C/Users/yadynesh/Final_Project/sampledataset2.csv"
 	],
 	"find":
 	{
@@ -546,8 +661,241 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "shortener/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 975.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "shortener/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "urlshortener/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								905,
+								905
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "shortener/utils.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								407,
+								407
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "shortener/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "urlshortener/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3167,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3167,
+								3167
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.go"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],

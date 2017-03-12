@@ -25,7 +25,7 @@ SECRET_KEY = '!c^ayhp6_@jek7zd99qgq0o8co!y*4e0p(6_62%79%-@fw&0zr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['yady.com','www.yady.com']
 
 
 # Application definition
