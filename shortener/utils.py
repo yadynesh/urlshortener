@@ -13,7 +13,7 @@ def generateShortcode(instance, size=6):
 	Klass = instance.__class__ 
 	#we are doing this because models.py imports generateShortCode and thus we cannot import models.py
 
-	if Klass.objects.filter(shortcode = new_code).exits() :
+	if Klass.objects.filter(shortcode = new_code).exists() :
 		generateShortcode(instance)
 	else:
 		return new_code
