@@ -1,0 +1,640 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bs3fo",
+				"bs3-form:inline\tbs3-form-inline"
+			],
+			[
+				"bst",
+				"bs3-table\tbs3-table"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"tm",
+				"template_name"
+			],
+			[
+				"lo",
+				"loadHome\t(views.py)"
+			],
+			[
+				"vi",
+				"views\tmodule"
+			],
+			[
+				"ext",
+				"extends\textends"
+			],
+			[
+				"bs3",
+				"bs3-navbar\tbs3-navbar"
+			],
+			[
+				"tra",
+				"trans_id"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"form",
+				"format_suffix_patterns\tfunction"
+			],
+			[
+				"S",
+				"StockList\tclass"
+			],
+			[
+				"com",
+				"companies\tmodule"
+			],
+			[
+				"st",
+				"stocks"
+			],
+			[
+				"Ap",
+				"APIView\tclass"
+			],
+			[
+				"v",
+				"views\tmodule"
+			],
+			[
+				"res",
+				"rest_framework\tmodule"
+			],
+			[
+				"re",
+				"register\tfunction"
+			],
+			[
+				"mod",
+				"models.FloatField"
+			],
+			[
+				"F",
+				"FloatField\tclass"
+			],
+			[
+				"vie",
+				"views"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"user",
+				"username\t(forms.py)"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"tem",
+				"template_name"
+			],
+			[
+				"User",
+				"UserForm"
+			],
+			[
+				"mode",
+				"model\t(views.py)"
+			],
+			[
+				"modeFor",
+				"ModelForm\tclass"
+			],
+			[
+				"con",
+				"contrib\tmodule"
+			],
+			[
+				"url",
+				"urlpatterns"
+			],
+			[
+				"pa",
+				"path\tmodule"
+			],
+			[
+				"Fi",
+				"FileField\tclass"
+			],
+			[
+				"fo",
+				"form-control\t(base.html)"
+			],
+			[
+				"gl",
+				"glyphicon-plus\t(base.html)"
+			],
+			[
+				"gly",
+				"glyphicon\t(base.html)"
+			],
+			[
+				"reve",
+				"reverse_lazy\tfunction"
+			],
+			[
+				"col",
+				"col-sm-10"
+			],
+			[
+				"butt",
+				"bs3-button\tbs3-button"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"c",
+				"CreateView\tclass"
+			],
+			[
+				"Deta",
+				"DetailView\t(views.py)"
+			],
+			[
+				"De",
+				"DetailView\tclass"
+			],
+			[
+				"ex",
+				"extends\textends"
+			],
+			[
+				"b",
+				"block\tblock"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"nav",
+				"navbar\t(index.html)"
+			],
+			[
+				"spa",
+				"span\tTag"
+			],
+			[
+				"sp",
+				"span"
+			],
+			[
+				"in",
+				"index"
+			],
+			[
+				"name",
+				"name='home"
+			],
+			[
+				"navbar",
+				"navbar-music\t(style.css)"
+			],
+			[
+				"btn",
+				"btn-default"
+			],
+			[
+				"navbar-",
+				"navbar-nav"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"Doe",
+				"DoesNotExist"
+			],
+			[
+				"KE",
+				"KeyError\tclass"
+			],
+			[
+				"pl",
+				"pk=album_id"
+			],
+			[
+				"co",
+				"counter"
+			],
+			[
+				"for",
+				"for\tAttr"
+			],
+			[
+				"me",
+				"method\tAttr"
+			],
+			[
+				"ge",
+				"get_object_or_404\tfunction"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"al",
+				"album_title"
+			],
+			[
+				"a",
+				"album"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"all",
+				"all_albums"
+			],
+			[
+				"album",
+				"album_id"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
+				"u",
+				"urls"
+			],
+			[
+				"hubo",
+				"hubotFlock"
+			],
+			[
+				"nam",
+				"nameErr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"djan",
+				"Set Syntax: HTML (Django)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 232.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install package",
+			"install package;",
+			"install anaconda",
+			"install package",
+			"install anaconda",
+			"install package",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"install anaconda",
+			"install package",
+			"install",
+			"anaconda",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/project/urlshortener"
+	],
+	"file_history":
+	[
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/templates/AdminPanel/customer-details.html",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/templates/AdminPanel/index.html",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/templates/AdminPanel/customer_confirm_delete.html",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/models.py",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/urls.py",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/templates/AdminPanel/customer_form.html",
+		"/C/Python/MyDjangoWeb/music/models.py",
+		"/C/Python/MyDjangoWeb/music/forms.py",
+		"/C/Python/MyDjangoWeb/music/templates/music/form_template.html",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/template/AdminPanel/index.html",
+		"/C/Users/yadynesh/Final_Project/D_Basket/D_Basket/urls.py",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/views.py",
+		"/C/Users/yadynesh/Final_Project/D_Basket/D_Basket/settings.py",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/template/AdminPanel/home.html",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/template/ss",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/admin.py",
+		"/C/Users/yadynesh/Final_Project/D_Basket/AdminPanel/template",
+		"/C/Users/yadynesh/Final_Project/Sample datasets/original.csv",
+		"/C/Users/yadynesh/Final_Project/.gitignore",
+		"/C/Users/yadynesh/Final_Project/sampledataset.csv",
+		"/C/Users/yadynesh/Final_Project/Sample datasets/sampledataset2.csv",
+		"/C/Users/yadynesh/Final_Project/Sample datasets/sampledataset4.csv",
+		"/C/Python/MyDjangoWeb/music/templates/music/base.html",
+		"/C/Users/yadynesh/Final_Project/original1.csv",
+		"/C/Python/MyDjangoWeb/music/urls.py",
+		"/C/Python/MyDjangoWeb/companies/admin.py",
+		"/C/Users/yadynesh/Final_Project/code1.py",
+		"/C/Python/MyDjangoWeb/MyDjangoWeb/settings.py",
+		"/C/Python/MyDjangoWeb/companies/views.py",
+		"/C/Users/yadynesh/Final_Project/sampledataset4.csv",
+		"/C/Python/MyDjangoWeb/companies/serializers.py",
+		"/C/Python/MyDjangoWeb/companies/models.py",
+		"/C/Python/MyDjangoWeb/companies/urls.py",
+		"/C/Python/MyDjangoWeb/MyDjangoWeb/urls.py",
+		"/C/Python/MyDjangoWeb/music/views.py",
+		"/C/Python/MyDjangoWeb/music/view_old.py",
+		"/C/Python/MyDjangoWeb/music/templates/music/registration_form.html",
+		"/C/Python/MyDjangoWeb/music/templates/music/details.html",
+		"/C/Python/MyDjangoWeb/music/templates/music/index.html",
+		"/C/Python/MyDjangoWeb/music/templates/music/album_form.html",
+		"/C/Python/MyDjangoWeb/music/apps.py",
+		"/C/Python/MyDjangoWeb/music/templates/music/date.html",
+		"/C/Python/MyDjangoWeb/music/static/music/style.css",
+		"/C/Users/yadynesh/AppData/Roaming/Sublime Text 3/Packages/anaconda_go/README.md",
+		"/C/Users/yadynesh/Final_Project/original.csv",
+		"/C/version-control/reflections/lesson_1_reflection_prompts.txt",
+		"/C/Users/yadynesh/Final_Project/tcpServer.py",
+		"/C/Python/tp.py",
+		"/C/Users/yadynesh/Final_Project/firstversion.py",
+		"/C/Users/yadynesh/Final_Project/Client2.py",
+		"/C/Users/yadynesh/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Python/MyDjangoWeb/music/admin.py",
+		"/C/Python/MyDjangoWeb/main_app/admin.py",
+		"/C/Python/MyDjangoWeb/main_app/urls.py",
+		"/C/Users/yadynesh/Final_Project/website/urls.py",
+		"/C/Users/yadynesh/Final_Project/website/website/urls.py",
+		"/C/Python/MyDjangoWeb/manage.py",
+		"/C/Users/yadynesh/Final_Project/website/polls/urls.py",
+		"/C/Users/yadynesh/Final_Project/website/db.sqlite3",
+		"/C/Javascript/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/C/Users/yadynesh/Final_Project/website/polls/views.py",
+		"/C/Javascript/frontend-nanodegree-resume/index.html",
+		"/C/Javascript/frontend-nanodegree-resume/README.md",
+		"/C/Apache24/conf/httpd.conf",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/hubot/flock",
+		"/C/Users/yadynesh/yady/node_modules/hubot-flock/src/flock.coffee",
+		"/C/Users/yadynesh/yady/external-scripts.json",
+		"/C/Users/yadynesh/yady/hubot links",
+		"/C/Javascript/frontend-nanodegree-resume/js/helper.js",
+		"/C/Users/yadynesh/Downloads/bot (5)/bot/Telegram.php",
+		"/C/xampp/htdocs/test.php",
+		"/C/Users/yadynesh/yady/node_modules/hubot-google-news/lib/scripts/google-news.js",
+		"/C/xampp/htdocs/index.php",
+		"/C/Users/yadynesh/Downloads/bot (5)/bot/bottest.php",
+		"/C/hubot/helloworld.js",
+		"/C/Users/yadynesh/yady/node_modules/hubot-flock/README.md",
+		"/C/Users/yadynesh/yady/node_modules/hubot-flock/src/backup.coffee",
+		"/C/Users/yadynesh/newbot/external-scripts.json",
+		"/C/Users/yadynesh/newbot/node_modules/hubot-http-adapter/README.md",
+		"/C/Users/yadynesh/yady/package.json",
+		"/C/Users/yadynesh/yady/scripts/example.coffee",
+		"/C/Users/yadynesh/yady/scripts/test.coffee",
+		"/C/Users/yadynesh/yady/scripts/response.js",
+		"/C/Users/yadynesh/newbot/node_modules/hubot-http-adapter/package.json",
+		"/C/Users/yadynesh/newbot/hubot-scripts.json",
+		"/C/Users/yadynesh/yady/README.md",
+		"/C/Users/yadynesh/yady/node_modules/hubot-flock/package.json",
+		"/C/Users/yadynesh/TestHubot/scripts/example.coffee",
+		"/C/Users/yadynesh/myhubot/scripts/example.coffee",
+		"/C/Users/yadynesh/hub/TestHubot/node_modules/hubot-flock/src/flock.coffee",
+		"/C/Users/yadynesh/TestHubot/external-scripts.json",
+		"/C/Users/yadynesh/TestHubot/scripts/test.coffee",
+		"/C/Users/yadynesh/yady/hubot-scripts.json",
+		"/C/Users/yadynesh/hubot-flock/src/flock.coffee",
+		"/C/Users/yadynesh/TestHubot/node_modules/hubot/src/user.coffee",
+		"/C/Users/yadynesh/hubot-flock/package.json",
+		"/C/Users/yadynesh/TestHubot/node_modules/coffee-script/package.json",
+		"/C/Program Files/redis-3.2.8/redis.conf",
+		"/C/Program Files/nodejs/myhubot/external-scripts.json",
+		"/C/xampp/htdocs/listContacts.php",
+		"/E/installers/mod_wsgi-httpd-2.4.12.4/README.rst",
+		"/C/xampp/htdocs/testreq.php",
+		"/C/Users/yadynesh/TestHubot/hubot-scripts.json",
+		"/C/Program Files/nodejs/myhubot/bin/hubot",
+		"/E/installers/httpd-2.4.23-win64/Apache24/conf/httpd.conf",
+		"/C/Python34/qt.conf",
+		"/E/installers/httpd-2.4.23-win64/--  Win64-2.4.23 VC10 --",
+		"/C/Apache24/conf/original/httpd.conf",
+		"/C/Users/yadynesh/Final_Project/firstdemo.py",
+		"/C/xampp/htdocs/practice/form_validate.php",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/htdocs/practice/curl_test.php",
+		"/C/xampp/wsgi/helloworls.wsgi",
+		"/C/xampp/htdocs/practice/welcome.php",
+		"/C/Swasth/bot/bot/bottest.php",
+		"/C/Swasth/bot/bot/Telegram.php",
+		"/C/xampp/php/php.ini-development",
+		"/C/php/pratice/welcome.php",
+		"/C/php/pratice/form_validate.php",
+		"/C/Python34/Lib/site-packages/Orange/datasets/conferences.dst",
+		"/C/Python34/Lib/site-packages/Orange/datasets/market-basket.tab",
+		"/C/Users/yadynesh/Final_Project/sampledataset.tab",
+		"/C/Users/yadynesh/Final_Project/sampledataset2.csv",
+		"/C/Users/yadynesh/.condarc",
+		"/C/Users/yadynesh/Final_Project/sampledataset6.tab",
+		"/C/Users/yadynesh/Final_Project/sampledataset.tab.metadata",
+		"/C/Users/yadynesh/Final_Project/sampledataset3.tab"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"img",
+			"password",
+			"if",
+			"next",
+			"receive",
+			"use",
+			"Sample",
+			"exports",
+			"res",
+			"input",
+			"send",
+			"postToFlock",
+			"envelope",
+			"linkify",
+			"cli",
+			"inter",
+			"receive",
+			"ping",
+			"IfModule",
+			"ServerName",
+			";extension=php_curl.dll",
+			"extension=php_curl.dll’",
+			"‘;extension=php_curl.dll’"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 40.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "urlshort.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
