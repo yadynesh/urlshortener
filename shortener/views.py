@@ -10,7 +10,7 @@ class HomeView(View):
 	def get(self, request, *args, **kwargs):
 		the_form  = SubmitUrlForm()
 		context = {
-			"title" : "MagicUrl.co",
+			"title" : "MagicUrl.com",
 			"form" : the_form
 		}
 		return render(request, 'shortener/home.html', context)
@@ -23,7 +23,7 @@ class HomeView(View):
 			print(the_form.cleaned_data)
 
 		context = {
-			"title" : "MagicUrl.co",
+			"title" : "MagicUrl.com",
 			"form" : the_form
 		}
 		return render(request, 'shortener/home.html', context)
