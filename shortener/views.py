@@ -18,15 +18,26 @@ class HomeView(View):
 	def post(self, request, *args, **kwargs):
 		print (request.POST)
 		print (request.POST.get('url')) #url is the name of the input field in home.html
+		template = "shortener/home.html"
 		the_form  = SubmitUrlForm(request.POST)
-		if the_form.is_valid():
-			print(the_form.cleaned_data)
-
 		context = {
 			"title" : "MagicUrl.com",
 			"form" : the_form
 		}
-		return render(request, 'shortener/home.html', context)
+		
+		if the_form.is_valid():
+			new_url = the_form.cleaned_data.get("url")
+			obj , created = MagicUrl.objects.get_or_create(url = new_url)
+			if created:
+				template = 'shortener/success.html'
+				context = {
+					'object' : obj
+				}
+				
+			else:
+				template = 'shortener/already-exists.html'
+				
+		return render(request, template, context)
 
 
 class MagicCBView(View):
