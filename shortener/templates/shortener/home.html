@@ -1,15 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>{{form.title}}</title>
-</head>
-<body>
-	<form action="." method="POST" role="form">
-		{% csrf_token %}
-		<div class="form-group">
-			{{form.as_p}}
-			<button type="submit" class="btn btn-primary">Shortener</button>
+{% extends "shortener/base.html" %}
+{% block title %}
+	home
+{% endblock title %}
+{% block content %}
+	
+	<div class="container col-md-6 col-md-offset-3">
+		<div class="col-sm-12 text-center">
+			<h1>MagicURL</h1>
+			
+			<form action="." method="POST" role="form">
+				{% csrf_token %}
+				<div class="form-group">
+					{{form.as_p}}
+					<button type="submit" class="btn btn-danger">Shortener</button>
+				</div>
+			</form>
 		</div>
-	</form>
-</body>
-</html>
+	</div>
+{% endblock content %}

@@ -1,3 +1,16 @@
-{{object.url}}<br/>
-Count = {{object.clickevent.count}}
-<a href ="{{object.get_short_url}}">{{object.get_short_url}}</a>
+
+{% extends "shortener/base.html" %}
+{% block title %}
+	home
+{% endblock title %}
+{% block content %}
+	
+	<div class="container col-md-6 col-md-offset-3">
+		<div class="col-sm-12 text-center primary">
+			<h1 class="text-success">SUCCESS</h1>
+				<div>{{object.url}}</div><br/>
+				<div class="bold">Count={{object.clickevent.count}}</div><br/>
+				<button><a>href ="{{object.get_short_url}}">{{object.get_short_url}}</button> 
+		</div>
+	</div>
+{% endblock content %}
