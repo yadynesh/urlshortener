@@ -25,7 +25,7 @@ SECRET_KEY = '!c^ayhp6_@jek7zd99qgq0o8co!y*4e0p(6_62%79%-@fw&0zr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['yady.com','www.yady.com']
+ALLOWED_HOSTS = ['yady.com','www.yady.com','blog.yady.com','live.yady.com']
 
 
 # Application definition
@@ -37,10 +37,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'shortener'
+    #third party apps
+    'django_hosts',
+    #custom apps
+    'shortener',
 ]
 
 MIDDLEWARE = [
+    'django_hosts.middleware.HostsRequestMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -48,9 +52,13 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django_hosts.middleware.HostsResponseMiddleware',
 ]
 
 ROOT_URLCONF = 'urlshortener.urls'
+ROOT_HOSTCONF = 'urlshortener.hosts'
+DEFAULT_HOST = 'www'
+DEFAULT_REDIRECT_URL = "http://www.yady.com:8000"
 
 TEMPLATES = [
     {
