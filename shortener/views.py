@@ -28,12 +28,11 @@ class HomeView(View):
 		if the_form.is_valid():
 			new_url = the_form.cleaned_data.get("url")
 			obj , created = MagicUrl.objects.get_or_create(url = new_url)
-			if created:
-				template = 'shortener/success.html'
-				context = {
+			context = {
 					'object' : obj
 				}
-				
+			if created:
+				template = 'shortener/success.html'
 			else:
 				template = 'shortener/already-exists.html'
 				

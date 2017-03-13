@@ -58,7 +58,8 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'urlshortener.urls'
 ROOT_HOSTCONF = 'urlshortener.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = "http://www.yady.com:8000"
+DEFAULT_REDIRECT_URL = "yady.com:8000" 
+PARENT_HOST = DEFAULT_REDIRECT_URL #added aftere using django-hosts reverse
 
 TEMPLATES = [
     {

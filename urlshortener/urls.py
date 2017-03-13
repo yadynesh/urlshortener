@@ -21,5 +21,5 @@ urlpatterns = [
 
     url(r'^home/', views.HomeView.as_view(), name = 'home'),
     # url(r'^(?P<shortcode>[\w-]{6,15})/$',views.magic_redirect_view,),
-    url(r'^b/(?P<shortcode>[\w-]{6,15})/$',views.MagicCBView.as_view(),),
+    url(r'^(?P<shortcode>[\w-]{6,15})/$',views.MagicCBView.as_view(), name = 'scode'),
 ]

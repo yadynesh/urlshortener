@@ -2,6 +2,8 @@ from django.db import models
 from django.conf import settings
 from .utils import generateShortcode
 from .validators import validate_url,validate_dot_com
+#from django.urls import reverse
+from django_hosts.resolvers import reverse
 
 SHORTCODE_MAX = getattr(settings, "SHORTCODE_MAX", 15) #'SHORTCODE_MAX' = 15 if SHORTCODE_MAX not specified in settings
 
@@ -35,14 +37,6 @@ class MagicUrl(models.Model):
 	active = models.BooleanField(default = True)
 
 	objects = MagicUrlManager()
-	#custom_objects = MagicUrlManager() 
-	'''	incase you dont want to change the default objects.
-		objects is an instance of Manager class.What we are doing is oveririding the Manager class and creating object of 
-		the overridden class i.e MagicUrlManager
-	'''
-
-	# class Meta:
-	# 	ordering = ['-id']
 	
 	def save(self, *args, **kwargs):
 
@@ -54,4 +48,17 @@ class MagicUrl(models.Model):
 	def __str__(self):
 		return self.url + "--" + self.shortcode
 
+	def get_short_url(self):
+		#return "http://www.yady.com:8000/"+self.shortcode
+		url_path = reverse("scode", kwargs = {'shortcode':self.shortcode} , host ='www' ,scheme = "http" )
+		return url_path
 
+
+	#custom_objects = MagicUrlManager() 
+	'''	incase you dont want to change the default objects.
+		objects is an instance of Manager class.What we are doing is oveririding the Manager class and creating object of 
+		the overridden class i.e MagicUrlManager
+	'''
+
+	# class Meta:
+	# 	ordering = ['-id']
