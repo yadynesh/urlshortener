@@ -15,11 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from shortener import views
+from shortener.views import URLRedirectView,HomeView
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 
-    url(r'^home/', views.HomeView.as_view(), name = 'home'),
+    url(r'^home/', HomeView.as_view(), name = 'home'),
     # url(r'^(?P<shortcode>[\w-]{6,15})/$',views.magic_redirect_view,),
-    url(r'^(?P<shortcode>[\w-]{6,15})/$',views.MagicCBView.as_view(), name = 'scode'),
+    url(r'^(?P<shortcode>[\w-]{6,15})/$', URLRedirectView.as_view(), name = 'scode'),
 ]

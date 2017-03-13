@@ -3,6 +3,7 @@ from django.views import View
 from django.http import HttpResponse,HttpResponseRedirect
 from .models import MagicUrl
 from .forms import SubmitUrlForm
+from analytics.models import ClickEvent
 # Create your views here.
 
 	
@@ -39,11 +40,13 @@ class HomeView(View):
 		return render(request, template, context)
 
 
-class MagicCBView(View):
+class URLRedirectView(View):
 
 	def get(self, request,shortcode = None, *args , **kwargs):
-		qs  = get_object_or_404(MagicUrl, shortcode=shortcode)
-		return HttpResponseRedirect(qs.url)
+		obj  = get_object_or_404(MagicUrl, shortcode = shortcode)
+
+		print(ClickEvent.objects.create_event(obj))
+		return HttpResponseRedirect(obj.url)
 		
 
 
