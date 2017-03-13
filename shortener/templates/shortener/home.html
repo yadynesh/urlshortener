@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>{{form.title}}</title>
 </head>
 <body>
-	this is inapp home
+	<form action="." method="POST" role="form">
+		{% csrf_token %}
+		<div class="form-group">
+			{{form.as_p}}
+			<button type="submit" class="btn btn-primary">Shorten</button>
+		</div>
+	</form>
 </body>
 </html>
