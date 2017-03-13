@@ -18,6 +18,8 @@ from django.contrib import admin
 from shortener import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^(?P<shortcode>[\w-]{6,15})/$',views.magic_redirect_view,),
+
+    url(r'^home/', views.HomeView.as_view(), name = 'home'),
+    # url(r'^(?P<shortcode>[\w-]{6,15})/$',views.magic_redirect_view,),
     url(r'^b/(?P<shortcode>[\w-]{6,15})/$',views.MagicCBView.as_view(),),
 ]
